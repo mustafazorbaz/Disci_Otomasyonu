@@ -1,0 +1,179 @@
+@charset "utf-8";
+/* CSS Document */
+
+*
+{
+	padding:0;
+	margin:0;
+}
+.footer1
+{
+	background-color:#666;
+}
+.footer2
+{
+	background-color:#333;
+	color:#CCC;
+}
+marquee
+{
+font-size:20px;
+}
+body
+{
+	background-color:#E2E3E7;
+	
+}
+
+marquee
+{
+	color:#000059;
+	
+}
+
+#sayfa
+{
+	
+	min-width: 1350px;
+
+	left: 34px;
+	top: 3px;
+	
+}
+#header{
+	min-width: 1000px;
+	background-color: #E2E3E7;
+	height: 150px;
+	margin: auto;
+	width: 1000px;
+	}
+
+#content{
+	min-width: 1000px;
+	
+
+	margin: auto;
+	width: 1000px;	/*margin-right: 100px;
+	margin-left: 100px;*/
+	
+	
+	}
+#footer{
+	padding-bottom: 0px;
+	
+	
+	background-color: #CF6;
+	height: 50px;
+	/*width: 1350px;*/
+	margin: auto;
+	position:absolute;
+	
+	}
+#logo
+{
+	height: 70px;
+	
+}
+.menu
+{
+	background-color:#0057AE;
+	color:#FFF;
+	border-radius:15px;
+	text-align:center;
+	
+}
+.link
+{
+	text-decoration:none;
+	color:#FFF;
+	font-size:20px;
+}
+link.hover
+{
+	background-color:#000071; 
+
+}
+
+
+.link:hover
+{
+	color:#C0C0C0;
+	font-size:25px;
+
+}
+.button:hover
+{
+	background-color:#000080;
+	border-radius:10px;
+	
+}
+
+.girisbtn
+{
+	color:#FFF;
+	background-color:#0274B0;
+	height:50px;
+	border-radius:5px;
+	text-decoration:none;
+
+	
+}
+.girisbtn:hover
+{
+	color:#06016;
+	background-color:9#000;
+	border:solid 2px #000000;
+	font-size:18px;
+	border-radius:5px;
+}
+.cikisbtn
+{
+	color:#FFF;
+	background-color:#8A0000;
+	height:30;
+	border-radius:5px;
+	text-decoration:none;
+}
+.cikisbtn:hover
+{
+	color:#06016;
+	background-color:#8A0000;
+	border:solid 2px #000000;
+	font-size:18px;
+	border-radius:5px;
+}
+
+.uyeolbtn
+{
+	color:#FFF;
+	background-color:#0274B0;
+	height:30;
+	border-radius:5px;
+	text-decoration:none;
+}
+.uyeolbtn:hover
+{
+	color:#06016;
+	background-color:#0274B0;
+	border:solid 2px #000000;
+	font-size:18px;
+	border-radius:5px;
+}
+
+.uyesilbtn
+{
+	color:#FFF;
+	background-color:#0274B0;
+	height:30;
+	border-radius:5px;
+	text-decoration:none;
+}
+.uyesilbtn:hover
+{
+	color:#06016;
+	background-color:#0274B0;
+	border:solid 2px #000000;
+	font-size:18px;
+	border-radius:5px;
+}
+

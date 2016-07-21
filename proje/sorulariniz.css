@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+
+#sayfasorulariniz
+{
+	
+	min-width: 1350px;
+	left: 34px;
+	top: 3px;
+	
+}
+#iceriksorulariniz
+{
+	
+	min-width: 1000px;
+	margin: auto;
+	width: 1000px;	/*margin-right: 100px;
+	margin-left: 100px;*/
+	
+}
+.btn
+{
+	font-size: 18px;
+	font-weight: bold;
+	
+}

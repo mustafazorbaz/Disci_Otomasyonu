@@ -1,0 +1,44 @@
+<table width="1000" border="0" >
+  <tr>
+    <td width="470" bgcolor="#CCCCCC"><form id="form1" name="form1" method="post" action="hesap_arama.php">
+      <x class="yazi">Kriter Seç</x>
+      <select class="cmb" name="sec" id="sec">
+        <option selected="selected">tumu</option>
+        <option>id</option>
+        <option>tc</option>
+        <option>isim</option>
+        <option>soyisim</option>
+        <option>tarih</option>
+</select>
+      <input class="txt" type="text" name="arama" id="arama" />
+      <input class="btn" type="submit" name="ara" id="ara" value="  Ara  " />
+    </form></td>
+    <td width="38">&nbsp;</td>
+    <td width="470" bgcolor="#CCCCCC"><form id="form2" name="form2" method="post" action="hesap_ekleme.php">
+      <input class="btn" type="submit" name="ekle" id="ekle" value=" Hesap  Ekle " />
+    </form></td>
+  </tr>
+  <tr>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+  <tr>
+    <td bgcolor="#CCCCCC"><form id="form3" name="form3" method="post" action="hesap_silme_form_islemler.php">
+        <x class="yazi">Kriter Seç</x>
+      <select  class="cmb" name="sec" id="sec">
+        <option selected="selected">sec*</option>
+        <option>id</option>
+        <option>tc</option>
+</select>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <input class="txt" type="text" name="silme" id="silme" />
+      <input  class="btn"  type="submit" name="Sil" id="Sil" value="  Sil  " />
+    </form></td>
+    <td>&nbsp;</td>
+    <td bgcolor="#CCCCCC"><form id="form4" name="form4" method="post" action="hesap_duzenle.php">
+      <x class="yazi"> İd</x>
+      <input class="txt" type="text" name="id" id="id" />
+      <input class="btn" type="submit" name="duzenle" id="duzenle" value="Duzenle" />
+    </form></td>
+  </tr>
+</table>
+
